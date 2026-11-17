@@ -3,9 +3,9 @@
 #       dvc exp run    (reejecuta registrando un experimento con otros parámetros)
 stages:
   entrenar:
-    cmd: jupyter nbconvert --to notebook --execute --inplace notebooks/TalleV2r_MLOps_Calidad_Vino_ISO42001.ipynb
+    cmd: jupyter nbconvert --to notebook --execute --inplace notebooks/Taller_MLOps_Calidad_Vino_ISO42001.ipynb
     deps:
-      - notebooks/TalleV2r_MLOps_Calidad_Vino_ISO42001.ipynb
+      - notebooks/Taller_MLOps_Calidad_Vino_ISO42001.ipynb
       - data/raw/winequality-red.csv
     params:
       - taller
