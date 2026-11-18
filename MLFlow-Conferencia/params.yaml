@@ -6,4 +6,4 @@ taller:
   eliminar_duplicados: True    # v1 con duplicados -> v2 sin duplicados
   pca_components: 4
   cv_folds: 10
-  experimento_mlflow: vino-calidad-iso42001V2
+  experimento_mlflow: vino-calidad-iso42001V1
